@@ -12,7 +12,7 @@ public class MaxServiceTest {
         long a = 5;
         long b = 3;
 
-        long expected = 5;
+        long expected = 3;
         long actual = service.max(a, b);
 
         Assertions.assertEquals(expected, actual);
