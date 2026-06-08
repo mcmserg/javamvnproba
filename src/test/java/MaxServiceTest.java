@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 
 public class MaxServiceTest {
-    Adding a task
+
     @Test
     public  void  shouldFinMax() {
         MaxService service = new MaxService();
@@ -12,7 +12,7 @@ public class MaxServiceTest {
         long a = 5;
         long b = 3;
 
-        long expected = 3;
+        long expected = 5;
         long actual = service.max(a, b);
 
         Assertions.assertEquals(expected, actual);
